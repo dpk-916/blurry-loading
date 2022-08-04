@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
+.bg{
+	background: url('https://cdn.pixabay.com/photo/2020/02/26/08/59/fireworks-4881190_960_720.jpg') no-repeat center center/cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	filter: blur(0px);
+}
+
+.loading-text{
+	font-size: 50px;
+	color: white;
+}
+
